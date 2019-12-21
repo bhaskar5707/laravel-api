@@ -69,3 +69,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Step for create API
+Step 1 : Install composer first from "https://getcomposer.org/download/"
+Step 2 : Install laravel from "https://laravel.com/docs/5.7/installation"
+        composer create-project --prefer-dist laravel/laravel blog "5.7.*";
+        Run serve from this command "php artisan serve"
+Step 3 : php artisan help make:model (optional)
+Step 4 : php artisan make:model Model/Product -a
+Step 5 : php artisan make:model Model/Review -a
+Step 6 : Create route in routes/api.php
+Step 7 : php artisan route:list (optional , for check route without api and with api resource)
