@@ -83,3 +83,7 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 <h2>Setup Migration</h2>
 <p>Step 1 : Modify migration file in database/migrations folder</p>
 <p>Step 2 : php artisan migrate</p>
+<h2>Database seeding with Faker Library  [Fake library from "https://github.com/fzaninotto/Faker"]</h2>
+<p>Step 1 : modify factories from database/factories</p>
+<p>Step 2 : modify seeds from database/seeds</p>
+<p>Step 3 : run command  php artisan db:seed</p>
