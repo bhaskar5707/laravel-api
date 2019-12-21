@@ -82,3 +82,4 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 <p>Step 7 : php artisan route:list (optional , for check route without api and with api resource)</p>
 <h2>Setup Migration</h2>
 <p>Step 1 : Modify migration file in database/migrations folder</p>
+<p>Step 2 : php artisan migrate</p>
