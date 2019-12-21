@@ -71,12 +71,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Step for create API
-<p align="center">Step 1 : Install composer first from "https://getcomposer.org/download/"</p>
-<p align="center">Step 2 : Install laravel from "https://laravel.com/docs/5.7/installation"</p>
-        <p align="center">composer create-project --prefer-dist laravel/laravel blog "5.7.*";</p>
-        <p align="center">Run serve from this command "php artisan serve"</p>
-<p align="center">Step 3 : php artisan help make:model (optional)</p>
-<p align="center">Step 4 : php artisan make:model Model/Product -a</p>
-<p align="center">Step 5 : php artisan make:model Model/Review -a</p>
-<p align="center">Step 6 : Create route in routes/api.php</p>
-<p align="center">Step 7 : php artisan route:list (optional , for check route without api and with api resource)</p>
+<p>Step 1 : Install composer first from "https://getcomposer.org/download/"</p>
+<p>Step 2 : Install laravel from "https://laravel.com/docs/5.7/installation"</p>
+        <p>composer create-project --prefer-dist laravel/laravel blog "5.7.*";</p>
+        <p>Run server from this command -  "php artisan serve"</p>
+<p>Step 3 : php artisan help make:model (optional)</p>
+<p>Step 4 : php artisan make:model Model/Product -a</p>
+<p>Step 5 : php artisan make:model Model/Review -a</p>
+<p>Step 6 : Create route in routes/api.php</p>
+<p>Step 7 : php artisan route:list (optional , for check route without api and with api resource)</p>
+<h2>Setup Migration</h2>
+<p>Step 1 : Modify migration file in database/migrations folder</p>
